@@ -1,0 +1,13 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.animate-background {
+  animation: gradientAnimation 10s infinite alternate;
+}
+
